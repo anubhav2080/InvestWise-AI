@@ -1,0 +1,501 @@
+Age,Income,Expenses,Savings,InvestmentAmount,Goal,Duration,Risk,Recommendation
+50,43014,10293,32721,19556,Child Education,5,Medium,Balanced Fund
+37,141884,78770,63114,17740,Emergency Fund,15,Low,Fixed Deposit
+46,90554,11620,78934,4072,Child Education,21,Medium,Balanced Fund
+25,37364,26928,10436,4544,Wealth Creation,16,High,Stocks
+45,28402,15479,12923,4209,Child Education,2,Low,Mutual Fund
+48,33861,27022,6839,2690,Retirement,21,Low,Government Bonds
+46,115106,54708,60398,22777,Wealth Creation,16,Low,Mutual Fund
+49,73410,60850,12560,11014,House Purchase,19,High,Mutual Fund
+37,91615,18303,73312,14889,House Purchase,22,Low,Fixed Deposit
+39,56456,17922,38534,6621,Wealth Creation,21,Low,Mutual Fund
+45,55579,26979,28600,17794,Emergency Fund,11,High,Gold ETF
+24,75007,11183,63824,8788,Retirement,23,High,Mutual Fund
+57,145985,104604,41381,9691,Child Education,4,High,Mutual Fund
+41,59198,37262,21936,15316,Retirement,11,High,Mutual Fund
+50,46177,29310,16867,10699,House Purchase,8,High,Mutual Fund
+47,48063,27130,20933,13955,Retirement,12,Low,Government Bonds
+36,117489,43611,73878,9194,Emergency Fund,13,Low,Fixed Deposit
+42,96633,33323,63310,8396,Child Education,4,Medium,Balanced Fund
+39,84597,77820,6777,6000,Wealth Creation,22,High,Stocks
+32,33346,14842,18504,7110,Child Education,21,Medium,Balanced Fund
+26,148664,51685,96979,9930,Child Education,13,Medium,Balanced Fund
+42,98233,59022,39211,4616,Child Education,24,Medium,Balanced Fund
+54,133607,45986,87621,7821,House Purchase,16,Medium,Balanced Fund
+27,146903,70306,76597,6037,Retirement,5,High,Mutual Fund
+25,46569,19150,27419,11769,Retirement,25,High,Mutual Fund
+38,39163,23297,15866,14920,Wealth Creation,19,High,Stocks
+38,82065,44435,37630,7538,Retirement,20,Medium,Mutual Fund
+44,104207,44237,59970,10049,Child Education,3,High,Mutual Fund
+45,48050,31474,16576,4341,Child Education,23,Low,Mutual Fund
+52,123781,106021,17760,3038,Child Education,20,High,Mutual Fund
+48,115897,22935,92962,14777,Retirement,17,Low,Government Bonds
+51,35078,24093,10985,10337,House Purchase,24,Medium,Balanced Fund
+49,55328,28995,26333,23494,Emergency Fund,6,Low,Fixed Deposit
+58,106601,74215,32386,12139,Retirement,7,Low,Government Bonds
+39,95384,80471,14913,6425,Wealth Creation,7,Low,Mutual Fund
+48,49465,11266,38199,9045,Wealth Creation,8,Medium,Mutual Fund
+42,126716,41492,85224,23696,Wealth Creation,21,High,Stocks
+53,90754,71809,18945,11607,House Purchase,5,High,Mutual Fund
+47,36966,18676,18290,10349,Retirement,14,Medium,Mutual Fund
+35,121755,43549,78206,17227,Emergency Fund,17,High,Gold ETF
+54,44802,18280,26522,9454,Retirement,11,Medium,Mutual Fund
+28,29746,23321,6425,4983,House Purchase,25,High,Mutual Fund
+60,112657,35952,76705,22304,Wealth Creation,17,Low,Mutual Fund
+59,26200,12485,13715,9161,House Purchase,2,Medium,Balanced Fund
+58,56637,44810,11827,9100,Child Education,20,High,Mutual Fund
+26,148255,40547,107708,22220,House Purchase,18,Medium,Balanced Fund
+58,88169,81521,6648,2890,Emergency Fund,18,Medium,Mutual Fund
+41,97289,87544,9745,4857,Child Education,11,High,Mutual Fund
+35,40636,18740,21896,18830,Child Education,15,Low,Mutual Fund
+31,149070,32569,116501,22646,Retirement,15,High,Mutual Fund
+36,135712,12993,122719,19567,Emergency Fund,10,Medium,Mutual Fund
+59,93117,36905,56212,6832,Retirement,11,Medium,Mutual Fund
+25,46955,37990,8965,2811,Child Education,16,Low,Mutual Fund
+25,33704,14853,18851,15710,Emergency Fund,7,High,Gold ETF
+47,85978,52307,33671,15492,Emergency Fund,11,Medium,Mutual Fund
+26,146711,140842,5869,2531,Wealth Creation,12,High,Stocks
+36,36899,24175,12724,8676,Emergency Fund,19,Medium,Mutual Fund
+39,105846,34756,71090,10484,Child Education,18,Low,Mutual Fund
+27,60290,25895,34395,20817,Retirement,8,High,Mutual Fund
+38,34935,26324,8611,8602,Retirement,4,High,Mutual Fund
+54,138940,85307,53633,15379,Child Education,13,Low,Mutual Fund
+45,80120,25151,54969,14161,Child Education,15,High,Mutual Fund
+21,71041,32148,38893,13839,House Purchase,3,Low,Fixed Deposit
+26,51806,35440,16366,5040,Wealth Creation,4,Low,Mutual Fund
+39,43062,24673,18389,5667,Wealth Creation,12,High,Stocks
+36,103950,31928,72022,5675,Wealth Creation,12,Low,Mutual Fund
+38,99112,88400,10712,7630,Child Education,8,High,Mutual Fund
+37,46421,26660,19761,14158,House Purchase,16,High,Mutual Fund
+29,67983,22326,45657,22900,House Purchase,15,Low,Fixed Deposit
+28,145038,28456,116582,10573,House Purchase,13,Low,Fixed Deposit
+29,89865,13675,76190,8957,Child Education,3,Low,Mutual Fund
+42,103709,54825,48884,24616,Child Education,16,Low,Mutual Fund
+39,101722,47178,54544,21244,Emergency Fund,6,Low,Fixed Deposit
+25,75892,55079,20813,2540,Retirement,11,High,Mutual Fund
+43,28378,20756,7622,6209,Retirement,6,Low,Government Bonds
+40,94020,20979,73041,4502,Emergency Fund,7,High,Gold ETF
+49,56954,34166,22788,12791,Child Education,7,High,Mutual Fund
+37,92936,21184,71752,21129,Emergency Fund,5,Medium,Mutual Fund
+46,68571,37403,31168,11428,House Purchase,10,Low,Fixed Deposit
+37,80538,33026,47512,14133,Wealth Creation,16,Low,Mutual Fund
+24,90755,52680,38075,11139,Emergency Fund,25,Low,Fixed Deposit
+33,136224,89462,46762,9037,Wealth Creation,21,High,Stocks
+21,147923,29424,118499,6225,Emergency Fund,24,Medium,Mutual Fund
+22,85622,66955,18667,6998,Retirement,24,High,Mutual Fund
+33,110973,28086,82887,12208,Child Education,17,High,Mutual Fund
+60,87817,34473,53344,7760,House Purchase,16,Medium,Balanced Fund
+52,31180,19500,11680,9936,House Purchase,5,Medium,Balanced Fund
+49,115301,77881,37420,14513,Retirement,22,Low,Government Bonds
+60,99739,37077,62662,18355,House Purchase,16,High,Mutual Fund
+42,149526,114689,34837,7801,Retirement,22,Low,Government Bonds
+24,145869,118574,27295,23851,Retirement,6,High,Mutual Fund
+52,74861,69678,5183,4955,House Purchase,21,Medium,Balanced Fund
+23,139712,36338,103374,2556,Emergency Fund,21,Low,Fixed Deposit
+53,74510,66029,8481,3188,House Purchase,10,Low,Fixed Deposit
+43,45222,31125,14097,8174,Emergency Fund,9,High,Gold ETF
+27,140135,65586,74549,2699,Retirement,17,Medium,Mutual Fund
+50,41645,20147,21498,7397,Wealth Creation,19,High,Stocks
+48,47469,32265,15204,7040,Emergency Fund,22,High,Gold ETF
+44,29481,12180,17301,12255,Child Education,23,High,Mutual Fund
+50,26110,13947,12163,10894,Wealth Creation,5,Low,Mutual Fund
+48,63133,15240,47893,10034,House Purchase,23,Low,Fixed Deposit
+21,35525,25289,10236,6189,Child Education,14,Low,Mutual Fund
+28,138770,46119,92651,8885,Child Education,7,Medium,Balanced Fund
+41,122321,14739,107582,23979,House Purchase,12,Medium,Balanced Fund
+37,36189,23223,12966,4111,Child Education,16,Medium,Balanced Fund
+31,32677,24596,8081,5336,Retirement,25,High,Mutual Fund
+51,86617,38777,47840,17522,Wealth Creation,25,High,Stocks
+26,40296,11535,28761,19127,House Purchase,4,High,Mutual Fund
+21,134834,115404,19430,6390,Emergency Fund,13,Low,Fixed Deposit
+29,79957,12459,67498,8920,House Purchase,9,Medium,Balanced Fund
+44,49634,19200,30434,13829,Emergency Fund,23,Low,Fixed Deposit
+54,26736,18665,8071,3280,Child Education,10,Medium,Balanced Fund
+37,137351,117115,20236,19987,Retirement,23,Low,Government Bonds
+44,65983,60952,5031,4207,Retirement,6,Low,Government Bonds
+29,58254,34154,24100,22267,Child Education,6,Medium,Balanced Fund
+45,123554,117351,6203,4908,Retirement,9,Low,Government Bonds
+25,148727,10759,137968,12871,Emergency Fund,2,Medium,Mutual Fund
+45,83712,56176,27536,15527,Wealth Creation,22,Low,Mutual Fund
+40,123547,49473,74074,20356,Emergency Fund,12,High,Gold ETF
+51,52322,20617,31705,23794,Emergency Fund,17,High,Gold ETF
+60,130495,83836,46659,2378,Emergency Fund,10,Medium,Mutual Fund
+33,58609,18436,40173,2969,House Purchase,3,Medium,Balanced Fund
+45,77297,42617,34680,16465,Wealth Creation,3,Low,Mutual Fund
+28,34306,12968,21338,11674,Child Education,5,Low,Mutual Fund
+46,147013,62242,84771,11886,House Purchase,13,Low,Fixed Deposit
+53,60431,14305,46126,22578,Wealth Creation,12,Low,Mutual Fund
+32,129665,99545,30120,20345,Child Education,5,High,Mutual Fund
+42,133043,71370,61673,15757,Child Education,20,Low,Mutual Fund
+27,73120,16697,56423,18737,House Purchase,6,Medium,Balanced Fund
+27,79311,38578,40733,23165,Wealth Creation,6,Low,Mutual Fund
+29,136043,12976,123067,12136,Child Education,2,Low,Mutual Fund
+30,84586,28418,56168,22669,Wealth Creation,23,Medium,Mutual Fund
+25,78824,40555,38269,19594,Child Education,19,High,Mutual Fund
+24,100081,35055,65026,7945,Wealth Creation,5,Low,Mutual Fund
+27,70330,41208,29122,11587,Wealth Creation,6,Low,Mutual Fund
+34,85751,64778,20973,10054,Emergency Fund,16,High,Gold ETF
+58,44775,29677,15098,8897,House Purchase,4,Low,Fixed Deposit
+25,42175,26285,15890,14972,Retirement,19,Medium,Mutual Fund
+24,89680,48895,40785,9524,Child Education,17,Medium,Balanced Fund
+33,135664,53037,82627,8479,Wealth Creation,12,Low,Mutual Fund
+49,145933,140470,5463,3682,Emergency Fund,13,High,Gold ETF
+55,138911,45338,93573,9694,Child Education,8,Low,Mutual Fund
+60,57930,23031,34899,15842,Retirement,6,Medium,Mutual Fund
+36,104220,70118,34102,12005,Child Education,3,Medium,Balanced Fund
+30,112991,54652,58339,6171,Retirement,18,Low,Government Bonds
+28,89390,68644,20746,13279,House Purchase,21,Low,Fixed Deposit
+37,124636,92667,31969,16922,House Purchase,16,Medium,Balanced Fund
+29,92588,67508,25080,9330,Emergency Fund,20,High,Gold ETF
+58,78653,15182,63471,8567,House Purchase,19,Low,Fixed Deposit
+28,87375,25103,62272,21732,Emergency Fund,17,Medium,Mutual Fund
+43,96682,60164,36518,21577,House Purchase,2,Medium,Balanced Fund
+30,50867,17231,33636,23301,House Purchase,14,High,Mutual Fund
+53,62398,47468,14930,10785,Emergency Fund,25,Medium,Mutual Fund
+36,107455,40782,66673,16460,Emergency Fund,25,Low,Fixed Deposit
+42,142761,32211,110550,16364,House Purchase,9,High,Mutual Fund
+49,26660,21036,5624,3014,House Purchase,5,High,Mutual Fund
+40,82526,63080,19446,7449,Child Education,12,Low,Mutual Fund
+32,28160,15017,13143,5554,House Purchase,24,Low,Fixed Deposit
+55,114726,59553,55173,17466,Child Education,5,Low,Mutual Fund
+38,53005,16127,36878,10019,Retirement,19,Low,Government Bonds
+38,37252,19831,17421,6305,House Purchase,16,Medium,Balanced Fund
+53,103996,35222,68774,3278,House Purchase,21,High,Mutual Fund
+39,47820,33354,14466,13643,House Purchase,17,Low,Fixed Deposit
+32,123782,17363,106419,11036,Child Education,20,Low,Mutual Fund
+21,116474,72933,43541,19316,Retirement,18,Low,Government Bonds
+56,143498,33658,109840,6331,House Purchase,23,Low,Fixed Deposit
+60,103198,92629,10569,8427,Child Education,18,Medium,Balanced Fund
+25,70695,20351,50344,24467,Retirement,12,Low,Government Bonds
+33,48989,27764,21225,16483,Retirement,15,Medium,Mutual Fund
+51,128551,55374,73177,24127,Child Education,17,Low,Mutual Fund
+33,39127,11574,27553,9570,Child Education,18,Low,Mutual Fund
+32,119678,57810,61868,9608,House Purchase,18,Medium,Balanced Fund
+51,57830,42436,15394,8575,Wealth Creation,12,Medium,Mutual Fund
+40,127671,19869,107802,2490,Wealth Creation,24,Low,Mutual Fund
+44,112272,19696,92576,11936,Wealth Creation,8,High,Stocks
+58,64184,26878,37306,23963,Child Education,19,Medium,Balanced Fund
+45,138010,31764,106246,11222,Wealth Creation,10,High,Stocks
+39,48763,31537,17226,5177,Child Education,23,High,Mutual Fund
+54,127450,44386,83064,2467,Child Education,6,Low,Mutual Fund
+40,140016,104204,35812,6333,Retirement,9,Low,Government Bonds
+22,70548,30257,40291,12474,Emergency Fund,8,Medium,Mutual Fund
+24,36325,25446,10879,6250,Child Education,24,Low,Mutual Fund
+41,38705,11686,27019,13047,House Purchase,2,Medium,Balanced Fund
+42,118154,33332,84822,8311,Wealth Creation,7,Medium,Mutual Fund
+50,145054,70298,74756,9664,Emergency Fund,14,High,Gold ETF
+48,36919,29299,7620,4557,Retirement,3,High,Mutual Fund
+56,142348,98620,43728,13862,Emergency Fund,2,High,Gold ETF
+31,45996,16278,29718,11817,Child Education,6,High,Mutual Fund
+47,143904,14048,129856,16588,House Purchase,13,Low,Fixed Deposit
+52,46211,38628,7583,6752,Emergency Fund,21,High,Gold ETF
+42,135168,92080,43088,14130,Wealth Creation,22,High,Stocks
+22,147110,37198,109912,15140,Emergency Fund,24,Low,Fixed Deposit
+55,75349,35763,39586,24024,Emergency Fund,13,High,Gold ETF
+24,74192,53876,20316,3801,Child Education,15,Low,Mutual Fund
+56,98633,53037,45596,12805,Child Education,13,Low,Mutual Fund
+58,104502,20770,83732,11608,Wealth Creation,15,High,Stocks
+41,127362,40777,86585,15652,Child Education,8,High,Mutual Fund
+56,106373,41901,64472,18718,Child Education,3,Medium,Balanced Fund
+54,119317,82224,37093,18384,House Purchase,23,High,Mutual Fund
+45,77828,13341,64487,21873,House Purchase,20,High,Mutual Fund
+42,114264,60644,53620,10605,Child Education,16,High,Mutual Fund
+49,63532,34758,28774,24701,Emergency Fund,21,Medium,Mutual Fund
+59,65102,21838,43264,3868,Child Education,4,High,Mutual Fund
+45,107524,44381,63143,8135,Child Education,3,Low,Mutual Fund
+44,132053,42301,89752,13907,Child Education,25,Medium,Balanced Fund
+23,103013,18712,84301,4425,Retirement,2,Medium,Mutual Fund
+53,92672,20317,72355,16527,Wealth Creation,2,High,Stocks
+27,77385,51909,25476,5914,Emergency Fund,18,High,Gold ETF
+33,45746,27175,18571,14284,Child Education,19,Low,Mutual Fund
+47,57339,12978,44361,3145,Wealth Creation,19,Medium,Mutual Fund
+55,71092,19326,51766,8968,Retirement,17,High,Mutual Fund
+42,26338,14940,11398,10284,Emergency Fund,6,High,Gold ETF
+60,142290,39717,102573,15560,Child Education,19,High,Mutual Fund
+39,51994,19092,32902,11896,Child Education,14,High,Mutual Fund
+30,91796,76864,14932,2736,Wealth Creation,17,Low,Mutual Fund
+47,94515,53704,40811,6245,Retirement,8,Medium,Mutual Fund
+44,112520,71325,41195,2730,House Purchase,21,High,Mutual Fund
+50,109523,37097,72426,17590,Retirement,14,High,Mutual Fund
+39,34802,25242,9560,7901,Child Education,3,Medium,Balanced Fund
+37,122500,71252,51248,7229,Emergency Fund,4,Low,Fixed Deposit
+44,54304,41754,12550,11626,House Purchase,24,Medium,Balanced Fund
+22,141180,102896,38284,22181,Retirement,6,Medium,Mutual Fund
+35,85439,67162,18277,8297,Retirement,3,Medium,Mutual Fund
+35,144033,64563,79470,9018,House Purchase,15,Low,Fixed Deposit
+33,112308,43457,68851,11246,Wealth Creation,7,Medium,Mutual Fund
+26,116676,87525,29151,14081,Emergency Fund,8,High,Gold ETF
+39,72139,56706,15433,5893,Wealth Creation,22,High,Stocks
+49,113221,52791,60430,15358,Emergency Fund,15,Low,Fixed Deposit
+37,149771,103991,45780,6919,Emergency Fund,7,High,Gold ETF
+23,62891,56492,6399,2802,House Purchase,6,High,Mutual Fund
+59,31468,21203,10265,8854,Retirement,2,Low,Government Bonds
+33,92197,26835,65362,9260,Retirement,17,Medium,Mutual Fund
+30,126012,48156,77856,3166,Emergency Fund,20,High,Gold ETF
+22,108863,61118,47745,3346,House Purchase,7,Low,Fixed Deposit
+27,48809,19643,29166,2302,Child Education,24,Medium,Balanced Fund
+55,73703,12663,61040,14916,Retirement,15,High,Mutual Fund
+33,43022,16461,26561,14413,House Purchase,4,Medium,Balanced Fund
+29,34461,11513,22948,9753,Child Education,11,High,Mutual Fund
+32,134565,98111,36454,2918,Emergency Fund,21,Medium,Mutual Fund
+32,141056,75282,65774,23245,Wealth Creation,24,Low,Mutual Fund
+55,89692,49623,40069,6212,Child Education,9,Medium,Balanced Fund
+37,39416,28682,10734,3145,Wealth Creation,23,Low,Mutual Fund
+23,83383,24768,58615,16289,Child Education,11,Medium,Balanced Fund
+48,89022,66733,22289,12853,Retirement,22,Medium,Mutual Fund
+59,53998,20824,33174,3931,House Purchase,5,High,Mutual Fund
+22,93176,38769,54407,2231,Retirement,25,Low,Government Bonds
+36,43152,24869,18283,15566,Retirement,7,High,Mutual Fund
+34,49864,44645,5219,2693,Child Education,22,High,Mutual Fund
+34,38317,17450,20867,8670,Wealth Creation,13,Low,Mutual Fund
+51,123913,97772,26141,10576,Retirement,18,Medium,Mutual Fund
+33,149235,25002,124233,21120,Child Education,9,Low,Mutual Fund
+37,141475,125073,16402,9635,House Purchase,4,High,Mutual Fund
+21,125796,46387,79409,22797,Child Education,10,Low,Mutual Fund
+57,148179,108851,39328,16916,Wealth Creation,7,High,Stocks
+24,48720,12323,36397,6952,Emergency Fund,13,Low,Fixed Deposit
+54,88828,22994,65834,13564,Child Education,22,Low,Mutual Fund
+40,76721,27726,48995,3766,House Purchase,12,High,Mutual Fund
+30,38927,25320,13607,11286,Retirement,11,High,Mutual Fund
+22,95090,32863,62227,5662,House Purchase,16,Low,Fixed Deposit
+59,27971,10143,17828,2199,House Purchase,25,Low,Fixed Deposit
+21,112031,19005,93026,3011,Emergency Fund,18,Medium,Mutual Fund
+58,144334,60370,83964,6227,House Purchase,19,High,Mutual Fund
+26,140839,95308,45531,24275,Wealth Creation,15,Medium,Mutual Fund
+39,40595,12160,28435,21998,Wealth Creation,4,High,Stocks
+45,92390,18485,73905,15962,Child Education,9,Low,Mutual Fund
+34,56478,15884,40594,10512,Emergency Fund,21,High,Gold ETF
+25,72754,33483,39271,10371,Wealth Creation,17,Medium,Mutual Fund
+42,25338,14880,10458,6395,Emergency Fund,8,Medium,Mutual Fund
+27,59975,54796,5179,2932,Retirement,2,High,Mutual Fund
+54,121869,12694,109175,13701,Retirement,2,Medium,Mutual Fund
+51,83620,11290,72330,19919,Wealth Creation,10,Low,Mutual Fund
+29,65277,47370,17907,14758,Retirement,22,Low,Government Bonds
+56,110514,96193,14321,2564,Child Education,7,Low,Mutual Fund
+30,109270,81319,27951,7979,House Purchase,20,High,Mutual Fund
+45,131355,34758,96597,24955,Retirement,3,High,Mutual Fund
+28,144328,80621,63707,8407,Emergency Fund,6,Medium,Mutual Fund
+49,39737,21697,18040,12321,Wealth Creation,21,Medium,Mutual Fund
+27,46259,21626,24633,8201,Retirement,16,High,Mutual Fund
+23,106962,49180,57782,13866,Child Education,23,Medium,Balanced Fund
+40,147555,48729,98826,24792,Wealth Creation,13,Low,Mutual Fund
+41,49600,11356,38244,22889,Emergency Fund,23,High,Gold ETF
+57,88090,13478,74612,4453,Child Education,16,High,Mutual Fund
+31,71716,45970,25746,2471,House Purchase,8,Medium,Balanced Fund
+40,113083,14436,98647,3460,House Purchase,17,Low,Fixed Deposit
+31,44993,10085,34908,12556,Child Education,8,Medium,Balanced Fund
+38,28830,16204,12626,7060,Child Education,7,Medium,Balanced Fund
+50,147259,93679,53580,15405,House Purchase,8,High,Mutual Fund
+57,40837,17954,22883,15238,Emergency Fund,19,Low,Fixed Deposit
+26,116329,50800,65529,21289,Retirement,14,Low,Government Bonds
+28,45069,13174,31895,12459,Child Education,14,Medium,Balanced Fund
+44,106415,47527,58888,11880,Emergency Fund,8,Medium,Mutual Fund
+58,92202,27856,64346,14248,Emergency Fund,12,Medium,Mutual Fund
+36,50195,26338,23857,7356,Child Education,15,Medium,Balanced Fund
+31,38282,31601,6681,6348,Wealth Creation,11,Medium,Mutual Fund
+47,39721,10193,29528,18970,House Purchase,5,Low,Fixed Deposit
+28,149341,109061,40280,3434,House Purchase,14,Medium,Balanced Fund
+60,88944,46094,42850,13580,Emergency Fund,8,High,Gold ETF
+35,93838,26375,67463,8199,House Purchase,8,High,Mutual Fund
+53,147784,97629,50155,15709,Wealth Creation,23,High,Stocks
+39,129382,117571,11811,3107,Wealth Creation,17,Low,Mutual Fund
+49,27474,11734,15740,12405,Child Education,2,Low,Mutual Fund
+33,84473,41220,43253,13688,Emergency Fund,2,High,Gold ETF
+25,82551,61730,20821,16425,House Purchase,17,Medium,Balanced Fund
+37,45836,15006,30830,24584,Emergency Fund,20,Low,Fixed Deposit
+52,99249,25084,74165,21712,House Purchase,10,Medium,Balanced Fund
+43,83385,55953,27432,22541,Retirement,25,High,Mutual Fund
+41,82940,45324,37616,3412,House Purchase,11,High,Mutual Fund
+50,118021,50230,67791,10502,Child Education,17,Low,Mutual Fund
+45,78423,36246,42177,8735,Wealth Creation,5,High,Stocks
+57,85572,38046,47526,3052,Retirement,3,Medium,Mutual Fund
+36,101699,75464,26235,7687,House Purchase,12,Medium,Balanced Fund
+22,99893,45800,54093,17777,Retirement,10,Medium,Mutual Fund
+44,70614,14131,56483,4694,Retirement,10,Low,Government Bonds
+38,61165,21642,39523,16804,Wealth Creation,4,Low,Mutual Fund
+57,111262,18197,93065,10179,House Purchase,7,Low,Fixed Deposit
+28,85916,18225,67691,10076,Wealth Creation,4,Medium,Mutual Fund
+48,144077,32774,111303,10659,House Purchase,2,Low,Fixed Deposit
+46,53736,43067,10669,8868,Child Education,18,Low,Mutual Fund
+39,111223,95288,15935,15885,Emergency Fund,9,Medium,Mutual Fund
+27,44855,19711,25144,17764,House Purchase,18,Low,Fixed Deposit
+60,62898,49610,13288,7813,Retirement,17,High,Mutual Fund
+42,100123,50112,50011,12766,Child Education,17,High,Mutual Fund
+34,81092,57076,24016,15388,Wealth Creation,18,Low,Mutual Fund
+55,78581,38445,40136,9873,Wealth Creation,15,High,Stocks
+30,58758,10492,48266,6630,Retirement,22,Low,Government Bonds
+40,104260,69706,34554,6278,Wealth Creation,16,Low,Mutual Fund
+25,69523,21502,48021,14209,Child Education,19,High,Mutual Fund
+51,103637,60256,43381,18303,Retirement,22,Low,Government Bonds
+43,137603,33287,104316,7698,Child Education,23,Low,Mutual Fund
+38,143458,28918,114540,23366,House Purchase,4,High,Mutual Fund
+42,60253,53795,6458,6320,Retirement,8,Medium,Mutual Fund
+29,122284,97990,24294,6492,Child Education,19,Medium,Balanced Fund
+58,111710,50043,61667,17225,Child Education,6,High,Mutual Fund
+54,64989,59290,5699,3585,Retirement,22,High,Mutual Fund
+30,59712,28594,31118,14737,House Purchase,24,High,Mutual Fund
+29,55495,43767,11728,8633,Child Education,15,High,Mutual Fund
+37,29912,20272,9640,7124,Wealth Creation,2,High,Stocks
+31,148521,87931,60590,21837,Retirement,7,High,Mutual Fund
+27,128684,33940,94744,21289,Emergency Fund,24,Medium,Mutual Fund
+44,114935,48785,66150,13822,House Purchase,19,Low,Fixed Deposit
+45,122197,88357,33840,11544,Child Education,19,Medium,Balanced Fund
+29,33878,13796,20082,7582,Wealth Creation,19,Low,Mutual Fund
+50,70632,52194,18438,14158,Wealth Creation,20,High,Stocks
+32,94371,65252,29119,9144,Wealth Creation,4,Low,Mutual Fund
+33,78014,70155,7859,2460,Emergency Fund,4,Low,Fixed Deposit
+48,123753,79373,44380,24703,House Purchase,8,High,Mutual Fund
+25,68986,59055,9931,7946,House Purchase,12,High,Mutual Fund
+55,62078,49741,12337,11116,Wealth Creation,15,High,Stocks
+53,85134,22849,62285,10269,Child Education,8,Medium,Balanced Fund
+59,36139,16851,19288,12863,Retirement,2,Medium,Mutual Fund
+60,105130,24671,80459,24360,House Purchase,17,Medium,Balanced Fund
+30,77483,15586,61897,15579,Retirement,15,Low,Government Bonds
+53,129190,106647,22543,20212,Wealth Creation,8,High,Stocks
+33,98749,81583,17166,11770,Wealth Creation,22,High,Stocks
+23,125053,84585,40468,5370,Emergency Fund,21,High,Gold ETF
+42,85493,30527,54966,17464,Child Education,6,Medium,Balanced Fund
+28,58786,40324,18462,16066,Child Education,21,Low,Mutual Fund
+25,116217,65589,50628,21763,Retirement,3,High,Mutual Fund
+29,27237,18310,8927,5775,Emergency Fund,25,Medium,Mutual Fund
+39,52653,21955,30698,11504,Wealth Creation,12,Low,Mutual Fund
+42,104703,90732,13971,9185,Retirement,17,Medium,Mutual Fund
+38,39378,33241,6137,5254,Retirement,23,Low,Government Bonds
+53,107414,97362,10052,3782,Child Education,6,High,Mutual Fund
+33,62036,45561,16475,7472,House Purchase,10,Medium,Balanced Fund
+51,25048,10643,14405,10989,Child Education,21,Low,Mutual Fund
+55,26432,16110,10322,8051,House Purchase,19,High,Mutual Fund
+57,64207,35073,29134,13820,House Purchase,9,Low,Fixed Deposit
+52,83521,65339,18182,14337,House Purchase,9,Low,Fixed Deposit
+59,83205,33821,49384,15088,Retirement,2,Low,Government Bonds
+26,58560,10428,48132,14106,House Purchase,13,Low,Fixed Deposit
+60,45118,19360,25758,7112,Retirement,6,Low,Government Bonds
+33,69395,14612,54783,17705,House Purchase,2,Low,Fixed Deposit
+31,98401,39440,58961,8595,Child Education,8,Medium,Balanced Fund
+23,145890,25606,120284,8092,Emergency Fund,9,High,Gold ETF
+50,114264,42653,71611,20947,Wealth Creation,23,Low,Mutual Fund
+57,71116,63011,8105,6760,House Purchase,8,Medium,Balanced Fund
+21,80505,48688,31817,14481,Wealth Creation,2,Low,Mutual Fund
+45,110257,99058,11199,8189,Child Education,17,Medium,Balanced Fund
+40,122519,12689,109830,14947,Retirement,21,Medium,Mutual Fund
+29,86776,55091,31685,13901,Retirement,6,High,Mutual Fund
+27,65802,40933,24869,2311,Emergency Fund,18,High,Gold ETF
+55,58891,12188,46703,8684,Wealth Creation,2,Low,Mutual Fund
+59,35263,26634,8629,5509,House Purchase,17,High,Mutual Fund
+60,140365,20170,120195,11098,Retirement,24,High,Mutual Fund
+30,52832,37575,15257,13424,House Purchase,12,High,Mutual Fund
+50,77468,59196,18272,7223,Wealth Creation,11,Medium,Mutual Fund
+51,77477,35681,41796,12418,Wealth Creation,15,Low,Mutual Fund
+58,53529,11323,42206,5820,Emergency Fund,9,High,Gold ETF
+41,56701,46580,10121,7479,Retirement,17,Low,Government Bonds
+29,115952,24824,91128,10981,Wealth Creation,25,High,Stocks
+26,116972,21762,95210,6660,Child Education,18,Medium,Balanced Fund
+40,146414,62110,84304,24748,Emergency Fund,8,Medium,Mutual Fund
+22,46005,30596,15409,2805,Wealth Creation,17,Medium,Mutual Fund
+31,43354,32452,10902,8441,Retirement,16,Medium,Mutual Fund
+32,63289,32611,30678,3836,House Purchase,13,High,Mutual Fund
+54,109483,99804,9679,8483,Wealth Creation,19,Medium,Mutual Fund
+60,56005,32303,23702,15056,Retirement,7,High,Mutual Fund
+28,148307,70127,78180,6629,Emergency Fund,22,Low,Fixed Deposit
+42,87290,22680,64610,12904,Wealth Creation,23,Medium,Mutual Fund
+56,37543,12851,24692,6555,Child Education,21,Low,Mutual Fund
+26,94831,12136,82695,16835,Wealth Creation,2,High,Stocks
+52,107804,85651,22153,15318,House Purchase,11,Low,Fixed Deposit
+45,67490,15832,51658,12713,Retirement,25,High,Mutual Fund
+45,33536,23859,9677,9449,House Purchase,22,High,Mutual Fund
+41,85132,50936,34196,19876,Wealth Creation,3,Medium,Mutual Fund
+22,88232,10944,77288,11941,House Purchase,9,Low,Fixed Deposit
+58,85837,46796,39041,2557,Emergency Fund,24,High,Gold ETF
+31,131977,96716,35261,9742,Retirement,20,High,Mutual Fund
+59,128697,114012,14685,10592,Child Education,23,High,Mutual Fund
+35,112751,53482,59269,11533,Child Education,5,Low,Mutual Fund
+36,137079,36030,101049,14210,Retirement,2,Medium,Mutual Fund
+46,135065,57585,77480,14242,Emergency Fund,7,Medium,Mutual Fund
+37,64629,40910,23719,6123,Child Education,19,High,Mutual Fund
+34,135630,76918,58712,3619,Wealth Creation,14,Medium,Mutual Fund
+37,42539,28281,14258,9003,Wealth Creation,17,Low,Mutual Fund
+49,37249,25819,11430,8607,Wealth Creation,17,Low,Mutual Fund
+35,77272,34447,42825,12688,Retirement,21,Low,Government Bonds
+34,81370,17334,64036,7680,Child Education,7,Low,Mutual Fund
+51,75695,54259,21436,18610,Child Education,6,High,Mutual Fund
+42,75447,40513,34934,5604,House Purchase,18,High,Mutual Fund
+27,63919,48945,14974,2882,Retirement,17,Medium,Mutual Fund
+39,134530,13978,120552,15799,House Purchase,25,Low,Fixed Deposit
+45,83843,39305,44538,10489,House Purchase,2,Low,Fixed Deposit
+48,131557,42377,89180,12926,House Purchase,17,Medium,Balanced Fund
+35,99558,51624,47934,3061,Wealth Creation,16,Medium,Mutual Fund
+59,149158,36674,112484,24418,Retirement,2,High,Mutual Fund
+44,39777,27772,12005,5703,Wealth Creation,3,Medium,Mutual Fund
+38,60212,37907,22305,15368,House Purchase,5,Low,Fixed Deposit
+59,28280,19625,8655,5792,Child Education,11,Low,Mutual Fund
+45,61465,32017,29448,6320,Retirement,14,Medium,Mutual Fund
+50,55176,10779,44397,8754,Emergency Fund,8,Low,Fixed Deposit
+27,106305,45683,60622,8391,House Purchase,3,High,Mutual Fund
+31,136559,119420,17139,9735,Child Education,7,Medium,Balanced Fund
+53,46359,10934,35425,9444,Child Education,14,Low,Mutual Fund
+24,105280,91740,13540,6689,Retirement,19,Medium,Mutual Fund
+27,95051,47707,47344,13580,House Purchase,24,High,Mutual Fund
+43,128902,26192,102710,23552,Child Education,24,Low,Mutual Fund
+47,40766,31111,9655,7472,Emergency Fund,23,Medium,Mutual Fund
+40,53807,17640,36167,9208,Retirement,7,High,Mutual Fund
+47,40940,28100,12840,12655,Child Education,9,Low,Mutual Fund
+29,149212,111256,37956,23184,House Purchase,9,Low,Fixed Deposit
+39,77431,64309,13122,5912,Emergency Fund,5,Medium,Mutual Fund
+52,90284,19075,71209,24610,Child Education,4,Low,Mutual Fund
+48,86917,54908,32009,16268,Wealth Creation,13,Low,Mutual Fund
+34,82941,67373,15568,2844,Retirement,23,Low,Government Bonds
+28,37298,25987,11311,5831,Wealth Creation,25,Low,Mutual Fund
+41,121660,89655,32005,18649,Wealth Creation,3,High,Stocks
+52,110616,31418,79198,18909,Emergency Fund,9,High,Gold ETF
+47,105388,20190,85198,12497,Emergency Fund,7,High,Gold ETF
+46,106561,65320,41241,2593,Emergency Fund,11,High,Gold ETF
+41,79633,45676,33957,11974,House Purchase,7,Medium,Balanced Fund
+51,58762,51073,7689,5069,Child Education,17,Low,Mutual Fund
+49,46743,39357,7386,6725,Retirement,17,High,Mutual Fund
+46,96138,47055,49083,20902,Emergency Fund,17,High,Gold ETF
+55,49696,43184,6512,3408,House Purchase,21,High,Mutual Fund
+50,63095,13432,49663,12897,House Purchase,16,High,Mutual Fund
+55,105008,85348,19660,13992,Child Education,4,Low,Mutual Fund
+47,67626,36181,31445,7333,Emergency Fund,9,Medium,Mutual Fund
+39,134705,45192,89513,21574,Retirement,8,Medium,Mutual Fund
+41,92249,20767,71482,16950,Wealth Creation,16,Low,Mutual Fund
+32,139735,97226,42509,11326,Retirement,25,Medium,Mutual Fund
+36,95219,57296,37923,21532,Child Education,16,Low,Mutual Fund
+43,146032,28179,117853,7938,Child Education,23,Medium,Balanced Fund
+40,116373,97709,18664,3785,House Purchase,17,Low,Fixed Deposit
+35,123617,101674,21943,19058,Wealth Creation,9,Low,Mutual Fund
+40,134055,69592,64463,9808,Emergency Fund,22,Low,Fixed Deposit
+25,119029,24486,94543,11607,Child Education,5,High,Mutual Fund
+43,139957,56374,83583,16918,Emergency Fund,14,Medium,Mutual Fund
+45,145353,68942,76411,23275,Wealth Creation,19,Medium,Mutual Fund
+32,74848,54510,20338,14842,Retirement,4,Low,Government Bonds
+49,130256,105109,25147,10830,Emergency Fund,3,Medium,Mutual Fund
+46,116000,45426,70574,21655,House Purchase,14,Medium,Balanced Fund
+42,69840,49572,20268,3816,Child Education,12,High,Mutual Fund
+37,93264,74595,18669,16743,Wealth Creation,25,Medium,Mutual Fund
+22,26508,11821,14687,13464,Child Education,8,Medium,Balanced Fund
+24,87137,49192,37945,8598,Wealth Creation,6,Low,Mutual Fund
+39,40194,15443,24751,16675,Child Education,19,Medium,Balanced Fund
+54,143029,83996,59033,11107,Wealth Creation,10,High,Stocks
+29,131426,12271,119155,2685,Emergency Fund,23,Low,Fixed Deposit
+25,102043,29402,72641,13446,House Purchase,18,Low,Fixed Deposit
+41,141079,135836,5243,2253,Emergency Fund,25,Low,Fixed Deposit
+38,29916,21310,8606,4359,Emergency Fund,3,Medium,Mutual Fund
+31,147414,63404,84010,10516,House Purchase,17,Medium,Balanced Fund
+56,106996,74867,32129,5627,House Purchase,21,High,Mutual Fund
+45,73089,51393,21696,3758,House Purchase,13,Low,Fixed Deposit
+36,55557,14972,40585,21394,Retirement,23,Low,Government Bonds
+37,86556,15554,71002,9475,Retirement,5,Low,Government Bonds
+56,30142,19757,10385,6267,Retirement,21,Low,Government Bonds
+40,44481,10206,34275,20801,Wealth Creation,17,High,Stocks
+31,94826,14663,80163,6261,Emergency Fund,21,High,Gold ETF
+25,60809,52315,8494,2389,Child Education,11,Medium,Balanced Fund
+33,37344,16445,20899,10233,Wealth Creation,12,Low,Mutual Fund
+50,69802,11740,58062,16924,Child Education,3,Low,Mutual Fund
+53,75359,40731,34628,5837,Retirement,9,Low,Government Bonds
+53,32041,10930,21111,10469,Wealth Creation,12,Medium,Mutual Fund
+36,104523,30517,74006,5299,Child Education,22,Low,Mutual Fund
+42,109874,52609,57265,12731,Emergency Fund,7,Low,Fixed Deposit
+26,139578,100315,39263,4014,Wealth Creation,21,High,Stocks
+45,65663,38263,27400,21747,Retirement,18,Medium,Mutual Fund
+25,71819,62673,9146,8932,Child Education,8,Low,Mutual Fund
