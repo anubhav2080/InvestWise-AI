@@ -11,7 +11,31 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
+st.sidebar.title("📊 InvestWise AI")
 
+st.sidebar.success("Machine Learning Based Investment Advisor")
+
+st.sidebar.markdown("---")
+
+st.sidebar.write("### Features")
+
+st.sidebar.write("✅ AI Recommendation")
+st.sidebar.write("✅ Growth Prediction")
+st.sidebar.write("✅ Portfolio Allocation")
+st.sidebar.write("✅ Financial Health Score")
+st.sidebar.write("✅ Personalized Tips")
+
+st.sidebar.markdown("---")
+
+st.sidebar.info("Smart Investment Decisions with AI")
+st.sidebar.markdown("---")
+st.sidebar.subheader("📌 Technologies Used")
+
+st.sidebar.write("• Python")
+st.sidebar.write("• Streamlit")
+st.sidebar.write("• Scikit-Learn")
+st.sidebar.write("• Plotly")
+st.sidebar.write("• Pandas")
 # -----------------------------
 # Load ML Model
 # -----------------------------
@@ -163,6 +187,32 @@ if st.button("🚀 Get AI Recommendation"):
     st.success(
     f"Our AI recommends **{recommendation}** based on your age, income, savings, investment goal and risk tolerance."
     )
+    st.markdown("### 🧠 AI Insights")
+
+    if recommendation == "Stocks":
+        st.info(
+            "Your profile indicates a higher risk appetite and a longer investment horizon. Stocks can provide higher long-term growth."
+        )
+
+    elif recommendation == "Mutual Fund":
+        st.info(
+            "Mutual Funds offer diversified investments with balanced risk and return, making them suitable for your profile."
+        )
+
+    elif recommendation == "Government Bonds":
+        st.info(
+            "Government Bonds provide stable returns with low risk and are suitable for conservative investors."
+        )
+
+    elif recommendation == "Fixed Deposit":
+        st.info(
+            "Fixed Deposits offer guaranteed returns and capital protection with minimal risk."
+        )
+
+    else:
+        st.info(
+            "Balanced Funds combine equity and debt investments to achieve moderate growth with controlled risk."
+        )
 
     c1, c2, c3 = st.columns(3)
 
@@ -196,6 +246,25 @@ if st.button("🚀 Get AI Recommendation"):
             "Monthly Investment",
             f"₹{investment:,}",
         )
+        st.markdown("---")
+    st.subheader("🏆 Financial Health Score")
+
+    score = 50
+
+    if savings >= income * 0.20:
+        score += 20
+
+    if investment >= income * 0.10:
+        score += 20
+
+    if expenses <= income * 0.60:
+        score += 10
+
+    score = min(score, 100)
+
+    st.progress(score / 100)
+
+    st.success(f"Your Financial Health Score: **{score}/100**")
 
     st.markdown("---")
         # -----------------------------
@@ -454,6 +523,60 @@ if st.button("🚀 Get AI Recommendation"):
 """)
 
     st.markdown("---")
+    st.markdown("---")
+
+    st.subheader("💡 Personalized Financial Tips")
+
+    tips = []
+
+    if savings < income * 0.20:
+        tips.append("Increase monthly savings whenever possible.")
+
+    if investment < income * 0.10:
+        tips.append("Consider investing at least 10% of your monthly income.")
+
+    if expenses > income * 0.70:
+        tips.append("Try reducing unnecessary monthly expenses.")
+
+    if risk == "Low":
+        tips.append("A diversified portfolio may improve long-term returns.")
+
+    if not tips:
+        tips.append("Excellent financial discipline. Keep investing consistently.")
+
+    for tip in tips:
+        st.write("✅", tip)
+        st.markdown("---")
+
+    report = f"""
+    INVESTWISE AI REPORT
+
+    Age: {age}
+
+    Monthly Income: ₹{income:,}
+
+    Monthly Expenses: ₹{expenses:,}
+
+    Monthly Savings: ₹{savings:,}
+
+    Monthly Investment: ₹{investment:,}
+
+    Investment Goal: {goal}
+
+    Risk Tolerance: {risk}
+
+    Recommended Investment: {recommendation}
+
+    AI Confidence: {confidence:.1f}%
+
+    Financial Health Score: {score}/100
+    """
+
+    st.download_button(
+        "📄 Download Investment Report",
+        report,
+        file_name="Investment_Report.txt"
+    )
 
     # -----------------------------
     # Disclaimer
