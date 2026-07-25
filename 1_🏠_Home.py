@@ -5,8 +5,22 @@ st.set_page_config(
     page_icon="💼",
     layout="wide"
 )
+st.title("🚀 InvestWise AI")
 
-st.title("💼 InvestWise AI")
+st.subheader("Personalized Investment Recommendation System")
+
+st.write("""
+Welcome to **InvestWise AI**, an intelligent web application that helps users choose suitable investment options using Machine Learning.
+
+### 🌟 Key Features
+- 🎯 AI-Powered Investment Recommendation
+- 📈 Investment Growth Projection
+- 📊 Portfolio Allocation Visualization
+- 💰 Financial Health Score
+- ⚡ Fast & Interactive Dashboard
+""")
+
+st.markdown("---")st.title("💼 InvestWise AI")
 st.subheader("Intelligent Investment Recommendation System")
 
 st.markdown("---")
