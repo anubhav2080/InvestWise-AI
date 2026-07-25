@@ -20,7 +20,8 @@ Welcome to **InvestWise AI**, an intelligent web application that helps users ch
 - ⚡ Fast & Interactive Dashboard
 """)
 
-st.markdown("---")st.title("💼 InvestWise AI")
+st.markdown("---")
+st.title("💼 InvestWise AI")
 st.subheader("Intelligent Investment Recommendation System")
 
 st.markdown("---")
