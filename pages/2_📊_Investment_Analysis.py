@@ -3,6 +3,23 @@ import pandas as pd
 import plotly.express as px
 import joblib
 
+from reportlab.platypus import (
+    SimpleDocTemplate,
+    Paragraph,
+    Spacer,
+    Table,
+    TableStyle,
+)
+
+from reportlab.lib.styles import (
+    getSampleStyleSheet,
+    ParagraphStyle,
+)
+
+from reportlab.lib import colors
+from reportlab.lib.enums import TA_CENTER
+
+import io
 # -----------------------------
 # Page Configuration
 # -----------------------------
@@ -181,6 +198,29 @@ if st.button("🚀 Get AI Recommendation"):
     confidence = prediction_proba.max() * 100
 
     st.success("✅ Analysis Completed Successfully!")
+
+    st.markdown(f"""
+    <div style="
+    background-color:#1f4d2e;
+    padding:20px;
+    border-radius:10px;
+    border-left:8px solid #00ff88;
+    ">
+
+    <h2 style="color:white; margin-bottom:10px;">
+    🎯 Recommended Investment
+    </h2>
+
+    <h1 style="color:#00ff88; text-align:center;">
+    {recommendation}
+    </h1>
+
+    <p style="color:white; font-size:18px;">
+    Based on your age, income, savings, investment goal and risk tolerance.
+    </p>
+
+    </div>
+    """, unsafe_allow_html=True)
 
     st.markdown("### 🧠 AI Insights")
 
@@ -436,50 +476,6 @@ if st.button("🚀 Get AI Recommendation"):
     )
 
     st.markdown("---")
-
-    # -----------------------------
-    # Portfolio Summary
-    # -----------------------------
-
-    st.markdown(f"""
-    <div style="
-    background:linear-gradient(135deg,#1e3c72,#2a5298);
-    padding:30px;
-    border-radius:18px;
-    text-align:center;
-    box-shadow:0px 0px 20px rgba(0,255,136,0.35);
-    margin-bottom:25px;
-    ">
-
-    <p style="
-    font-size:18px;
-    color:#d1d5db;
-    margin-bottom:10px;
-    ">
-    🎯 AI Recommendation
-    </p>
-
-    <h1 style="
-    font-size:60px;
-    font-weight:900;
-    color:#00ff88;
-    margin:10px 0;
-    letter-spacing:1px;
-    ">
-    {recommendation}
-    </h1>
-
-    <p style="
-    font-size:20px;
-    color:white;
-    margin-top:15px;
-    ">
-    Best suited according to your financial profile.
-    </p>
-
-    </div>
-""", unsafe_allow_html=True)
-    st.markdown("---")
         # -----------------------------
     # Why this Recommendation
     # -----------------------------
@@ -583,46 +579,128 @@ if st.button("🚀 Get AI Recommendation"):
         st.write("✅", tip)
         st.markdown("---")
 
-    
-    report = f"""
-    ====================================
-            INVESTWISE AI REPORT
-    ====================================
+    def generate_pdf():
 
-    Age: {age}
+        buffer = io.BytesIO()
 
-    Monthly Income: ₹{income:,}
+        doc = SimpleDocTemplate(buffer)
 
-    Monthly Expenses: ₹{expenses:,}
+        styles = getSampleStyleSheet()
 
-    Monthly Savings: ₹{savings:,}
+        title_style = ParagraphStyle(
+            "TitleStyle",
+            parent=styles["Title"],
+            alignment=TA_CENTER,
+            fontSize=24,
+            textColor=colors.darkblue,
+            spaceAfter=20,
+        )
 
-    Monthly Investment: ₹{investment:,}
+        story = []
 
-    Investment Goal: {goal}
+        # Header
+        story.append(Paragraph("InvestWise AI", title_style))
+        story.append(Paragraph("<b>AI Investment Recommendation Report</b>", styles["Heading2"]))
+        story.append(Spacer(1, 20))
 
-    Risk Tolerance: {risk}
+        # User Details Table
+        data = [
+            ["Age", str(age)],
+            ["Monthly Income", f"Rs. {income:,}"],
+            ["Monthly Expenses", f"Rs. {expenses:,}"],
+            ["Monthly Savings", f"Rs. {savings:,}"],
+            ["Monthly Investment", f"Rs. {investment:,}"],
+            ["Investment Goal", goal],
+            ["Risk Tolerance", risk],
+            ["Investment Duration", f"{duration} Years"],
+        ]
 
-    Recommended Investment: {recommendation}
+        table = Table(data, colWidths=[180, 220])
 
-    AI Confidence: {confidence:.1f}%
+        table.setStyle(TableStyle([
+            ("BACKGROUND", (0,0), (0,-1), colors.darkblue),
+            ("TEXTCOLOR", (0,0), (0,-1), colors.white),
 
-    Financial Health Score: {score}/100
+            ("BACKGROUND", (1,0), (1,-1), colors.whitesmoke),
 
-    ====================================
+            ("GRID", (0,0), (-1,-1), 1, colors.grey),
 
-    Generated using Machine Learning
+            ("FONTNAME", (0,0), (-1,-1), "Helvetica-Bold"),
 
-    Developed by Anubhav Srivastava
+            ("BOTTOMPADDING", (0,0), (-1,-1), 8),
+        ]))
 
-    ====================================
-    """
+        story.append(table)
+        story.append(Spacer(1,20))
 
+        # Recommendation
+        story.append(Paragraph("<b>⭐ AI Recommendation</b>", styles["Heading2"]))
+
+        story.append(
+            Paragraph(
+                f"<font color='green' size='22'><b>{recommendation}</b></font>",
+                title_style
+            )
+        )
+
+        story.append(
+            Paragraph(
+                f"<b>AI Confidence Score :</b> {confidence:.2f}%",
+                styles["BodyText"]
+            )
+        )
+
+        story.append(Spacer(1,20))
+
+        # AI Insights
+        story.append(Paragraph("<b>AI Insights</b>", styles["Heading2"]))
+
+        story.append(Paragraph("• Recommendation generated using Machine Learning.", styles["BodyText"]))
+        story.append(Paragraph("• Based on your financial profile and risk tolerance.", styles["BodyText"]))
+        story.append(Paragraph("• Suitable for long-term wealth creation.", styles["BodyText"]))
+
+        story.append(Spacer(1,20))
+
+        # Portfolio
+        story.append(Paragraph("<b>Suggested Portfolio Allocation</b>", styles["Heading2"]))
+
+        story.append(Paragraph("• Mutual Fund : 60%", styles["BodyText"]))
+        story.append(Paragraph("• Gold ETF : 20%", styles["BodyText"]))
+        story.append(Paragraph("• Fixed Deposit : 20%", styles["BodyText"]))
+
+        story.append(Spacer(1,20))
+
+        # Disclaimer
+        story.append(Paragraph("<b>Disclaimer</b>", styles["Heading2"]))
+
+        story.append(
+            Paragraph(
+                "This report is generated by an AI/ML model for educational purposes only and should not be considered professional financial advice.",
+                styles["BodyText"]
+            )
+        )
+
+        story.append(Spacer(1,15))
+
+        story.append(
+            Paragraph(
+                "<b>Developed by Anubhav Srivastava</b>",
+                styles["BodyText"]
+            )
+        )
+
+        doc.build(story)
+
+        buffer.seek(0)
+
+        return buffer
+    pdf = generate_pdf()
     st.download_button(
-        "📄 Download Investment Report",
-        report,
-        file_name="Investment_Report.txt"
-    )
+    "📄 Download Professional PDF Report",
+    data=pdf,
+    file_name="InvestWise_AI_Report.pdf",
+    mime="application/pdf"
+)
 
     # -----------------------------
     # Disclaimer
