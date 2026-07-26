@@ -451,9 +451,28 @@ if st.button("🚀 Get AI Recommendation"):
     # Portfolio Summary
     # -----------------------------
 
-    st.success(
-        "This portfolio is generated according to your age, investment goal, financial condition and risk tolerance."
-    )
+    st.markdown(f"""
+<div style="
+background-color:#1f4d2e;
+padding:20px;
+border-radius:10px;
+border-left:8px solid #00ff88;
+">
+
+<h2 style="color:white; margin-bottom:10px;">
+🎯 Recommended Investment
+</h2>
+
+<h1 style="color:#00ff88; text-align:center;">
+{recommendation}
+</h1>
+
+<p style="color:white; font-size:18px;">
+Based on your age, income, savings, investment goal and risk tolerance.
+</p>
+
+</div>
+""", unsafe_allow_html=True)
 
     st.markdown("---")
         # -----------------------------

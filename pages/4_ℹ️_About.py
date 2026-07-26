@@ -25,8 +25,7 @@ Custom generated investment dataset.
 
 ### Developed By
 
-Anubhav Srivastava
-""")
+Anubhav Srivastava""")
 st.header("Future Scope")
 
 st.write("""
