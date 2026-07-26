@@ -185,8 +185,13 @@ if st.button("🚀 Get AI Recommendation"):
     st.subheader("🎯 AI Recommendation")
 
     st.success(
-    f"Our AI recommends **{recommendation}** based on your age, income, savings, investment goal and risk tolerance."
+        f"Our AI recommends **{recommendation}** as the most suitable investment option based on your financial profile."
     )
+
+    st.info(
+        f"📌 The recommendation was generated after analyzing your age, monthly income, savings, investment duration, goal, and **{risk}** risk tolerance."
+    )
+
     st.markdown("### 🧠 AI Insights")
 
     if recommendation == "Stocks":
@@ -223,6 +228,9 @@ if st.button("🚀 Get AI Recommendation"):
         )
 
         st.progress(min(confidence / 100, 1.0))
+        st.caption(
+    "Higher confidence indicates stronger agreement of the trained AI model with your financial profile."
+)
 
     with c2:
         st.metric(
@@ -356,6 +364,9 @@ if st.button("🚀 Get AI Recommendation"):
     # -----------------------------
 
     st.subheader("📂 Suggested Portfolio")
+    st.info(
+    "The following portfolio allocation is suggested to maintain diversification according to your financial profile."
+)
         # -----------------------------
     # Portfolio Allocation
     # -----------------------------
@@ -498,7 +509,7 @@ if st.button("🚀 Get AI Recommendation"):
         ]
     })
 
-    st.dataframe(summary, use_container_width=True)
+    st.table(summary)
 
     st.markdown("---")
 
@@ -548,8 +559,11 @@ if st.button("🚀 Get AI Recommendation"):
         st.write("✅", tip)
         st.markdown("---")
 
+    
     report = f"""
-    INVESTWISE AI REPORT
+    ====================================
+            INVESTWISE AI REPORT
+    ====================================
 
     Age: {age}
 
@@ -570,6 +584,14 @@ if st.button("🚀 Get AI Recommendation"):
     AI Confidence: {confidence:.1f}%
 
     Financial Health Score: {score}/100
+
+    ====================================
+
+    Generated using Machine Learning
+
+    Developed by Anubhav Srivastava
+
+    ====================================
     """
 
     st.download_button(
@@ -593,5 +615,5 @@ if st.button("🚀 Get AI Recommendation"):
     # -----------------------------
 
     st.caption(
-        "© 2026 InvestWise AI | Developed by Anubhav Srivastava | Built using Python, Streamlit, Scikit-Learn and Plotly."
-    )
+    "© 2026 InvestWise AI\n\nDeveloped by Anubhav Srivastava\n\nPowered by Python • Streamlit • Scikit-Learn • Plotly"
+)

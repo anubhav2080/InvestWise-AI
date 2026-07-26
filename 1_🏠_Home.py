@@ -90,21 +90,36 @@ st.markdown("---")
 
 st.header("🎯 Project Features")
 
-st.write("""
-✅ AI-based Investment Recommendation
+st.markdown("## ⭐ Dashboard Highlights")
 
-✅ Portfolio Allocation
+col1, col2 = st.columns(2)
 
-✅ Investment Growth Projection
+with col1:
+    st.metric("🤖 AI Powered", "Yes")
 
-✅ Risk Analysis
+with col2:
+    st.metric("📊 Investment Types", "5")
 
-✅ Annual Return Estimation
+col3, col4 = st.columns(2)
 
-✅ Interactive Dashboard
+with col3:
+    st.metric("⚡ Analysis Time", "< 2 sec")
 
-✅ Financial Learning
-""")
+with col4:
+    st.metric("📈 Max Duration", "30 Years")
+st.markdown("---")
+st.subheader("⚙️ How It Works")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.info("1️⃣ Enter your financial details")
+
+with col2:
+    st.info("2️⃣ AI analyzes your financial profile")
+
+with col3:
+    st.info("3️⃣ Receive a personalized investment recommendation")
 
 st.markdown("---")
 
@@ -125,3 +140,7 @@ with col2:
 
 with col3:
     st.success("📈 Growth Projection")
+st.markdown("---")
+st.caption(
+    "Developed by Anubhav Srivastava | Powered by Python • Streamlit • Scikit-Learn • Plotly"
+)
