@@ -182,16 +182,6 @@ if st.button("🚀 Get AI Recommendation"):
 
     st.success("✅ Analysis Completed Successfully!")
 
-    st.subheader("🎯 AI Recommendation")
-
-    st.success(
-        f"Our AI recommends **{recommendation}** as the most suitable investment option based on your financial profile."
-    )
-
-    st.info(
-        f"📌 The recommendation was generated after analyzing your age, monthly income, savings, investment duration, goal, and **{risk}** risk tolerance."
-    )
-
     st.markdown("### 🧠 AI Insights")
 
     if recommendation == "Stocks":
@@ -452,28 +442,43 @@ if st.button("🚀 Get AI Recommendation"):
     # -----------------------------
 
     st.markdown(f"""
-<div style="
-background-color:#1f4d2e;
-padding:20px;
-border-radius:10px;
-border-left:8px solid #00ff88;
-">
+    <div style="
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0px 0px 20px rgba(0,255,136,0.35);
+    margin-bottom:25px;
+    ">
 
-<h2 style="color:white; margin-bottom:10px;">
-🎯 Recommended Investment
-</h2>
+    <p style="
+    font-size:18px;
+    color:#d1d5db;
+    margin-bottom:10px;
+    ">
+    🎯 AI Recommendation
+    </p>
 
-<h1 style="color:#00ff88; text-align:center;">
-{recommendation}
-</h1>
+    <h1 style="
+    font-size:60px;
+    font-weight:900;
+    color:#00ff88;
+    margin:10px 0;
+    letter-spacing:1px;
+    ">
+    {recommendation}
+    </h1>
 
-<p style="color:white; font-size:18px;">
-Based on your age, income, savings, investment goal and risk tolerance.
-</p>
+    <p style="
+    font-size:20px;
+    color:white;
+    margin-top:15px;
+    ">
+    Best suited according to your financial profile.
+    </p>
 
-</div>
+    </div>
 """, unsafe_allow_html=True)
-
     st.markdown("---")
         # -----------------------------
     # Why this Recommendation
