@@ -145,7 +145,6 @@ streamlit run 1_🏠_Home.py
 
 **Anubhav Srivastava**
 
-B.Tech CSE (AI & ML)
 
 ---
 
